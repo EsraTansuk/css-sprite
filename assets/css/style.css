@@ -1,0 +1,29 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.sprite-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sprite {
+	background: url('/assets/images/empty-states.png') no-repeat;
+	background-size: 350%;
+	width: 150px;
+	height: 150px;
+}
+
+.sprite.icon1 {
+    background-position: top left;
+}
+
+.sprite.icon2 {
+    background-position: top right;
+}
+.sprite.icon3 {
+    background-position: bottom left;
+}
+
